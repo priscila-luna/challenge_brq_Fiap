@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Automação residencial</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/carro2.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <img src="images/logo.png" class="logo">
+        </div>
+    </div>
+
+    <section class="teclado">
+        <button class="tecla tecla_portao">Portão</button>
+        <button class="tecla tecla_luz">Luz</button>
+        <button class="tecla tecla_insigth1">Insigth 1</button>
+        <button class="tecla tecla_insigth2">Insigth2</button>
+        <button class="tecla tecla_insigth3">Insigth3</button>
+
+    </section>
+
+    <audio src="sounds/keyq.wav" id="som_tecla_portao"></audio>
+    <audio src="sounds/keyw.wav" id="som_tecla_luz"></audio>
+    <audio src="sounds/keye.wav" id="som_tecla_insigth1"></audio>
+    <audio src="sounds/keya.wav" id="som_tecla_insigth2"></audio>
+    <audio src="sounds/keys.wav" id="som_tecla_insigth3"></audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
